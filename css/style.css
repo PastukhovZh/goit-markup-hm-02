@@ -1,13 +1,25 @@
 /*Header*/
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
 .header {
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  color: #212121;
+}
+
+.logo1 {
+  color: #2196f3;
 }
 
 .header-nav {
@@ -21,6 +33,11 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.header-list:focus,
+.header-list:hover {
+  color: #2196f3;
 }
 
 .header-item {
@@ -44,7 +61,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffff;
+  color: #ffffff;
 }
 
 .hero-btn {
@@ -53,7 +70,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  color: #ffff;
+  color: #ffffff;
 }
 
 /*Section-2*/
@@ -162,7 +179,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  counter-reset: #ffff;
+  counter-reset: #ffffff;
 }
 
 .footer-list {
@@ -176,4 +193,50 @@
   line-height: 24px;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.nav-prtf {
+}
+
+.nav-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nav-btn :focus,
+.nav-btn :hover {
+  color: #ffffff;
+}
+
+.prtf-img {
+}
+
+.prtf-item-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.prtf-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
