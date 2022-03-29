@@ -6,15 +6,25 @@ li {
   list-style-type: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+button {
+  cursor: pointer;
+}
+
+/*-------------Header------------*/
+
 .header {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: #212121;
 }
 
@@ -26,11 +36,11 @@ li {
 }
 
 .header-list {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -41,77 +51,75 @@ li {
 }
 
 .header-item {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
-/*Section-1-Hero*/
+.header-item:focus,
+.header-item:hover {
+  color: #2196f3;
+}
+
+/*------------Section-1-Hero------------*/
 
 .hero {
 }
 
 .hero-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: #ffffff;
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.85;
   color: #ffffff;
 }
 
-/*Section-2*/
+/*------------Section-2------------*/
 
 .text {
 }
 
 .text-item-name {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .text-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #757575;
 }
 
-/*Section-3-do*/
+/*------------Section-3-do------------*/
 
 .do {
 }
 
 .do-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .do-list {
@@ -120,21 +128,19 @@ li {
 .do-item {
 }
 
-/*Section-4-team*/
+/*------------Section-4-team------------*/
 
 .team {
 }
 
 .team-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 .team-list {
@@ -144,7 +150,7 @@ li {
 }
 
 .team-person {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -153,29 +159,24 @@ li {
 }
 
 .team-person-job {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: #757575;
 }
 
-/*Footer*/
+/*------------Footer------------*/
 .footer {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .footer-adress {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -186,30 +187,23 @@ li {
 }
 
 .footer-item {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-
+  line-height: 1.17;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Portfolio */
+/* ------------PORTFOLIO------------ */
 
 .nav-prtf {
 }
 
 .nav-btn {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .nav-btn :focus,
 .nav-btn :hover {
@@ -220,23 +214,16 @@ li {
 }
 
 .prtf-item-name {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .prtf-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
+  line-height: 1.85;
   letter-spacing: 0.03em;
   color: #757575;
 }
