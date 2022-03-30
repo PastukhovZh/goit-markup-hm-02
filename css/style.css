@@ -49,6 +49,9 @@ button {
 .header-list:hover {
   color: #2196f3;
 }
+.header-list-now {
+  color: #2196f3;
+}
 
 .header-item {
   font-weight: 500;
@@ -66,14 +69,18 @@ button {
 /*------------Section-1-Hero------------*/
 
 .hero {
+  background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -84,6 +91,7 @@ button {
   font-size: 16px;
   line-height: 1.85;
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 /*------------Section-2------------*/
@@ -131,6 +139,7 @@ button {
 /*------------Section-4-team------------*/
 
 .team {
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -154,18 +163,21 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
+  text-align: center;
   color: #212121;
 }
 
 .team-person-job {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
   color: #757575;
 }
 
 /*------------Footer------------*/
 .footer {
+  background-color: #2f303a;
 }
 
 .footer-logo {
@@ -174,19 +186,23 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .footer-adress {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  counter-reset: #ffffff;
+  line-height: 1.71;
+  color: #ffffff;
 }
 
 .footer-list {
 }
 
 .footer-item {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
@@ -195,7 +211,7 @@ button {
 
 /* ------------PORTFOLIO------------ */
 
-.nav-prtf {
+.portfolio {
 }
 
 .nav-btn {
@@ -205,12 +221,15 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.nav-btn :focus,
+
+.btn-prtf :focus,
 .nav-btn :hover {
+  background-color: #2196f3;
   color: #ffffff;
 }
-
-.prtf-img {
+.btn-prtf-now {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .prtf-item-name {
