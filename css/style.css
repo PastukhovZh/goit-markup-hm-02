@@ -8,10 +8,24 @@ li {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: #212121;
 }
+
 button {
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+address {
+  font-style: normal;
+}
+
+:root {
+  --basic-color: #212121;
+  --second-basic-color: #2196f3;
+  --third-basic-color: #ffffff;
 }
 
 /*-------------Header------------*/
@@ -25,32 +39,30 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--basic-color);
 }
 
 .logo1 {
-  color: #2196f3;
+  color: var(--second-basic-color);
 }
 
 .header-nav {
 }
 
 .header-list {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--basic-color);
 }
 
 .header-list:focus,
 .header-list:hover {
-  color: #2196f3;
+  color: var(--second-basic-color);
 }
 .header-list-now {
-  color: #2196f3;
+  color: var(--second-basic-color);
 }
 
 .header-item {
@@ -63,7 +75,7 @@ button {
 
 .header-item:focus,
 .header-item:hover {
-  color: #2196f3;
+  color: var(--second-basic-color);
 }
 
 /*------------Section-1-Hero------------*/
@@ -74,24 +86,25 @@ button {
 }
 
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-basic-color);
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--third-basic-color);
+  background-color: var(--second-basic-color);
+}
+
+.hero-button :hover,
+.hero-button :focus {
+  background-color: #188ce8;
 }
 
 /*------------Section-2------------*/
@@ -100,8 +113,6 @@ button {
 }
 
 .text-item-name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,8 +132,6 @@ button {
 }
 
 .do-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -143,8 +152,6 @@ button {
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -159,13 +166,11 @@ button {
 }
 
 .team-person {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
+  color: var(--basic-color);
 }
 
 .team-person-job {
@@ -187,22 +192,20 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-basic-color);
 }
 
 .footer-adress {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--third-basic-color);
 }
 
 .footer-list {
 }
 
 .footer-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
@@ -220,16 +223,19 @@ button {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  background-color: #f5f4fa;
 }
 
 .btn-prtf :focus,
-.nav-btn :hover {
-  background-color: #2196f3;
-  color: #ffffff;
+.btn-prtf :hover {
+  background-color: var(--second-basic-color);
+  color: var(--third-basic-color);
 }
+
 .btn-prtf-now {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--third-basic-color);
+  background-color: var(--second-basic-color);
 }
 
 .prtf-item-name {
@@ -237,7 +243,7 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--basic-color);
 }
 
 .prtf-item {
